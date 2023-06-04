@@ -1,0 +1,76 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+  
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  
+    p {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+  
+    .contact-info {
+      margin-top: 30px;
+      h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 14px;
+        margin-bottom: 5px;
+      }
+    }
+  
+    button {
+      background-color: #4285f4;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #3367d6;
+      }
+    }
+  
+    @media screen and (max-width: 1200px) {
+      padding: 10px;
+  
+      h1 {
+        font-size: 20px;
+      }
+  
+      p {
+        font-size: 14px;
+      }
+  
+      .contact-info {
+        margin-top: 20px;
+  
+        h2 {
+          font-size: 16px;
+        }
+  
+        p {
+          font-size: 12px;
+        }
+      }
+  
+      button {
+        font-size: 14px;
+        padding: 8px 16px;
+      }
+    }
+  }
+  
