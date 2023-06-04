@@ -161,3 +161,11 @@
     overflow: visible;
   }
 }
+
+@media screen and (max-width: 800px) {
+
+  .tags.top-tags,
+  .tags.bottom-tags {
+    display: none;
+  }
+}
