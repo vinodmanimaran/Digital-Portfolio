@@ -28,10 +28,13 @@
 
 @media (max-width: 800px) {
     .header-image {
-        top: 300px;
-        max-width: 330px;
+                top: 250px;
+        max-width: 300px;
+        left: 50px;
+        /* Reset the left position */
         margin: 20px;
-        left:10px;
+        /* Set a desired right position for mobile */
+
         /* Set a desired right position for mobile */
     }
 }
