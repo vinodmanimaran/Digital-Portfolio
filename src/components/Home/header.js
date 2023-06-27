@@ -1,6 +1,7 @@
 import React from 'react';
 import img from '../../assets/images/Home.png';
-import './header.scss'; // Import the Sass file for styling
+import './header.scss'; 
+
 
 const Header = () => {
   return (
